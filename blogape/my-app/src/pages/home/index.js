@@ -13,6 +13,9 @@ class Home extends Component {
           <Col span={24}>
             {this.props.children}
           </Col>
+          <Col span={24} className='layout-footer'>
+          粤ICP备18069286号-1
+          </Col>
         </Row>
       </div>
     );

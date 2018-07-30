@@ -25,7 +25,7 @@ class Header extends Component {
           </div>
             <div className='header-nav header-nav-left nav-extra'>
             
-            <ul class="ant-menu ant-menu-light ant-menu-root ant-menu-horizontal" role="menu"><li class="ant-menu-item header-nav-item header-nav-home ant-menu-item-selected" role="menuitem"><a href="/">首页</a></li><li class="ant-menu-item header-nav-item" role="menuitem"><a href="/topics">讨论</a></li><li class="ant-menu-item header-nav-item" role="menuitem"><a href="/explore">发现</a></li><li class="ant-menu-item header-nav-item" role="menuitem"><a href="https://yuque.com/help" target="_blank">帮助</a></li><li class="ant-menu-item header-nav-item" role="menuitem"><a href="https://yuque.com/yuque/topics" target="_blank">反馈</a></li></ul>
+            <ul className="ant-menu ant-menu-light ant-menu-root ant-menu-horizontal" role="menu"><li className="ant-menu-item header-nav-item header-nav-home ant-menu-item-selected" role="menuitem"><a href="/">首页</a></li><li className="ant-menu-item header-nav-item" role="menuitem"><a href="/topics">讨论</a></li><li className="ant-menu-item header-nav-item" role="menuitem"><a href="/explore">发现</a></li><li className="ant-menu-item header-nav-item" role="menuitem"><a href="https://yuque.com/help" target="_blank">帮助</a></li><li className="ant-menu-item header-nav-item" role="menuitem"><a href="https://yuque.com/yuque/topics" target="_blank">反馈</a></li></ul>
             </div>
             
             <div className='layout_avater'>

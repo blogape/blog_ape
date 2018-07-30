@@ -1,5 +1,20 @@
 .imain{
     max-width: 1056px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+.block-index{
+    padding-right: 30px;
+}
+.repos-hot .block-explore-title{
+    border-bottom:1px solid #e8e8e8;
+}
+
+.repos-hot .block-explore-title>h3{
+    display: inline-block;
+    padding: 8px 0;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #262626;
+    font-size: 16px;
+    line-height: 32px;
 }

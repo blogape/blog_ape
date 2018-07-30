@@ -1,0 +1,17 @@
+.doc-article{
+    max-width: 824px;
+    width: 100%;
+    padding-right: 36px;
+    padding-left: 36px;
+    position: relative;
+    background: #fff;
+    max-width: 960px;
+    width: calc(100% - 200px);
+    min-height: 600px;
+    padding: 32px 80px 32px 48px;
+    -webkit-transition: width .3s linear,padding .3s linear;
+    transition: width .3s linear,padding .3s linear;
+}
+.doc-article img{
+    max-width:100%;
+}
