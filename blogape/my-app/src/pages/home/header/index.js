@@ -4,7 +4,7 @@ import "./index.css";
 class Header extends Component {
   render() {
     return (
-      <div className="header">
+      <div className="header logotop">
         <div className="layout-container clearfix">
           <div className="logo logo-enterprise">
             <a href="/" className="logo-link">

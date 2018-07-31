@@ -94,3 +94,8 @@
 
 
 
+.logotop .logo{
+    height: 60px;
+    overflow: hidden;
+    margin-top: -15px !important;
+}
