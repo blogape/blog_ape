@@ -10,7 +10,7 @@ class Header extends Component {
         <div className="logo">
           <Link to="/home" className="logo-link">
             <img
-              src="https://gw.alipayobjects.com/zos/rmsportal/cptBhNjKeyaBDrfnMKwC.svg"
+              src="https://yjyimages.oss-cn-shenzhen.aliyuncs.com/logo.png"
               className="image image-default"
               alt="语雀"
             />

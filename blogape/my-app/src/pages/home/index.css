@@ -7,7 +7,8 @@
     background-color: #fff;
     height: 60px;
     display: block;
-    padding: 15px 60px;
+    padding: 15px 10px;
+  
     z-index: 100;
   }
   
@@ -27,4 +28,10 @@
     border-bottom: 1px solid #262626;
     font-size: 16px;
     line-height: 32px;
+  }
+
+  .logo-link .image.image-default{
+    /* width:auto; */
+    height: 70px;
+    margin-top:-20px;
   }

@@ -6,10 +6,11 @@ import Ihome from "./components/content/index";
 import Login from "./pages/login/";
 import Register from "./pages/register/";
 import Index from "./pages/home/";
-import Vindex from './pages/index/';
-import Issue from './pages/issue/';
-import IssueContent from './pages/issue/content';
-
+import Vindex from "./pages/index/";
+import Issue from "./pages/issue/";
+import IssueContent from "./pages/issue/content";
+import Directory from "./pages/directory/index.js";
+import  U from './pages/u/'
 class IRouter extends Component {
   render() {
     return (
@@ -17,22 +18,27 @@ class IRouter extends Component {
         <App>
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
-          <Route exact path="/issue" render={()=>(
-            <Issue>
-              <Switch>
-                <Route path='/issue' component={IssueContent}></Route>
-              </Switch>
-            </Issue>
-          )} />
 
           <Route
             exact
+            path="/issue"
+            render={() => (
+              <Issue>
+                <Switch>
+                  <Route path="/issue" component={IssueContent} />
+                </Switch>
+              </Issue>
+            )}
+          />
+          <Route
             path="/index"
             render={() => (
               <Index>
-                <Switch>
-                  <Route exact path="/index" component={Vindex} />
-                </Switch>
+             
+                  <Route  exact path="/index" component={Vindex} />
+                  <Route exact path="/index/directory" component={Directory} />
+                  <Route exact path="/index/u" component={U} />
+
               </Index>
             )}
           />
